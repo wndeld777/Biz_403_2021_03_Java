@@ -26,3 +26,21 @@
 3. local 저장소를 github 계정과 연결
 * git config --local user.name wndeld777
 * git config --local user.email wndeld777@gmail.com
+
+4. local 프로젝트 압축 준비
+* 압축금지 파일 설정 : .gitignore 파일에 설정
+* touch .gitignore 로 파일 생성
+* .gitignore 파일을 sublime text로 열어서 압축금지 파일 정보 등록
+
+5. local 프로젝트를 압축하여 local 저장소에 옮길 준비를 하라
+* git add .
+
+6. local 저장소에 옮겨라
+* git commit -m "comment"
+
+7. local 저장소에 있는 파일들을 원격저장소로 업로드 하라
+* git push https://github.com/wndeld777/Biz_403_2021_Java.git master
+
+git push https://github.com/wndeld777/Biz_403_2021_03_Java.git master
+
+https://github.com/wndeld777/Biz_403_2021_03_Java.git
