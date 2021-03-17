@@ -7,9 +7,9 @@ public class Numbers {
 		System.out.println("=======================");
 		System.out.println("33 + 2 = " + (33 + 2));
 		System.out.println("33 - 2 = " + (33 - 2));
-		System.out.println("33 * 2 = " + 33 * 2);
-		System.out.println("33 / 2 = " + 33 / 2);
-		System.out.println("33 % 2 = " + 33 % 2);
+		System.out.println("33 * 2 = " + (33 * 2));
+		System.out.println("33 / 2 = " + (33 / 2));
+		System.out.println("33 % 2 = " + (33 % 2));
 		System.out.println("=======================");
 		
 		
