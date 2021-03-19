@@ -13,6 +13,7 @@ public class Score_06 {
 		
 		if(floatAvg >= 95) {
 			System.out.println("장원입니다");
+			
 		}else if(floatAvg>=90) {
 			System.out.println("차석입니다");
 		}else if(floatAvg >= 80) {
