@@ -8,8 +8,8 @@ public class App_08 {
 		
 		ScoreServiceV1 ssV1 = new ScoreServiceV1();
 		
-		ssV1.makeScores();
-		ssV1.printScores();
+		ssV1.makeScore();
 		ssV1.makeSum();
+		ssV1.printScore();
 	}
 }

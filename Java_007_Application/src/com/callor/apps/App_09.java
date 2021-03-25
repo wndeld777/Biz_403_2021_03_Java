@@ -10,9 +10,9 @@ public class App_09 {
 		// public ScoreServiceV2( int members )
 		// 5는 ssV2 객체를 만들때 생성자에게 전달(보내는)값
 		// argument
-		ScoreServiceV2 ssV2 = new ScoreServiceV2(5);
-		ssV2.makeScores();
-		ssV2.printScores();
+		ScoreServiceV2 ssV2 = new ScoreServiceV2(20);
+		ssV2.makeScore();
 		ssV2.makeSum();
+		ssV2.printScore();
 	}
 }
