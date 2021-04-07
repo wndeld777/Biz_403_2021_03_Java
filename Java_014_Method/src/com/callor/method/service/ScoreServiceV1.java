@@ -12,10 +12,10 @@ public class ScoreServiceV1 {
 			return null;
 		}else {
 			System.out.println(" 점수 : " + retNum);
+			return retNum;
 		}
 		
 		
-		return null;
 		
 		
 		
