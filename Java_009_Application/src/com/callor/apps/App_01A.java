@@ -24,10 +24,5 @@ public class App_01A {
 		 * 객체.intputScore() 형식으로 사용할 수 없다.
 		 */
 		// ssV1.inputScore();
-		
-		ssV1.makeSum();
-		
-		ssV1.printScores();
-		
 	}
 }

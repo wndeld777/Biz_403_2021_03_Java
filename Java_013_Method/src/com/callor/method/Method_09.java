@@ -7,7 +7,7 @@ public class Method_09 {
 	public static void main(String[] args) {
 		
 		NumberServiceV7 nsV7 = new NumberServiceV7();
-		nsV7.inputScore();
+		nsV7.inputNum();
 		
 		
 	}

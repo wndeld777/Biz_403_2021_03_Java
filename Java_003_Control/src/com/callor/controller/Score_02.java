@@ -72,7 +72,7 @@ public class Score_02 {
 		 * 실수값, 실수형변수에 저장된 값에서 소수점이하 값을 무조건 잘라버리고
 		 * 정수부분만 변수에 저장한다
 		 */
-		intNum1 = floatNum1;
+		intNum1 = (int)floatNum1;
 		
 	}
 }

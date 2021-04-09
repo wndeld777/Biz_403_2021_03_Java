@@ -102,31 +102,6 @@ public class ScoreServiceV1A {
 	public boolean noYes() {
 		return true;
 	}
-	public void makeSum() {
-
-		for (int i = 0; i < intKor.length; i++) {
-			intSum[i] = intKor[i] + intEng[i] + intMath[i];
-			
-			floatAvg = (float) intSum[i] /3;
-		}
-	}
-
-	public void printScores() {
-		System.out.println("==================================================");
-		System.out.printf("인원\t국어\t영어\t수학\t총점\t평균\n");
-		System.out.println("==================================================");
-		for (int i = 0; i < intKor.length; i++) {
-
-			System.out.printf("%3s\t", strNames[i]);
-			System.out.printf("%3d\t", intKor[i]);
-			System.out.printf("%3d\t", intEng[i]);
-			System.out.printf("%3d\t", intMath[i]);
-			System.out.printf("%3d\t", intSum[i]);
-			System.out.printf("%3.2f\n", floatAvg);
-
-		}
-		System.out.println("==================================================");
-	}
 
 	}
 	
