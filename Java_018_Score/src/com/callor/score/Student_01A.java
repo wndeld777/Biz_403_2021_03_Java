@@ -35,17 +35,17 @@ public class Student_01A {
 			 */
 			
 			// 파일을 무조건 한 라인씩 읽어라
-			while (true) {
+			//while (true) {
 				//String reader = buffer.readLine();
 				//if (reader == null) {
 				//	break; // 파일의 끝에 다다르면 더이상 읽지마라
 					// EOF(End Of File)가 되면 reader변수에 null값이 담기게 된다
 					// reader에 null 값이 담겨 있다 == 다 읽었다
-				break;
-				}
+				//break;
+				//}
 
 				//System.out.println(reader);
-			}
+			
 			/*
 			 * =======================================================
 			 * while(조건식) 무한반복문
