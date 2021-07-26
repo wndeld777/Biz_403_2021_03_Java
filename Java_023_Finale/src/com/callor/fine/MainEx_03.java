@@ -7,6 +7,7 @@ public class MainEx_03 {
 		int num1 = 10;
 		int num2 = 20;
 		
+		
 		AddInt addInt = new AddInt();
 		int sum = addInt.add(num1, num2);
 		System.out.println(sum);

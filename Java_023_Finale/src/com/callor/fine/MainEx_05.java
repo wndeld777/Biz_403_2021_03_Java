@@ -15,8 +15,9 @@ public class MainEx_05 {
 		// 배열 100개에 저장된 값중에서 소수인 값들만 출력
 		for(int i = 0 ; i < nums.length ; i++) {
 			int index = 0;
+			
 			for(index = 2; index <nums.length ; i++) {
-				if(? % ?? == 0) {
+				if(nums % index == 0) {
 					break;
 				}
 			}

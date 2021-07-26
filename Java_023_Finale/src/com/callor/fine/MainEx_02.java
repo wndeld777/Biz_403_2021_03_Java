@@ -8,6 +8,8 @@ public class MainEx_02 {
 		ScoreVO[] scoreVO = new ScoreVO[10];
 		
 		int index = 3;
+		scoreVO[index] = new ScoreVO();
+		
 		scoreVO[index].setNum("0001");
 		scoreVO[index].setKor(90);
 		scoreVO[index].setEng(88);
